@@ -50,7 +50,7 @@ public class App extends Application {
         Pane parent = new Pane();
         Button node = new Button("Click me");
         
-        EventHandler<ActionEvent> eventHandler = (event) -> {
+        EventHandler<ActionEvent> eventHandler = (Event event) -> {
             System.out.println("Hello world");
         };
 
